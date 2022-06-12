@@ -1,0 +1,36 @@
+2) Share all practice SQL Command.
+=======================================================================
+CREATE TABLE:
+CREATE TABLE students (
+ id int, name varchar(200), 
+address varchar(200) 
+);
+----------------------------
+Insesrt value: 
+INSERT INTO students(id, name, address) VALUES(101, "Bipul", "Dhaka");
+----------------------------
+Drop Table:
+DROP TABLE students
+----------------------------
+Add value:
+ALTER TABLE students ADD mobile_numbervarchar(30);
+------------------------------
+Updating file:
+UPDATE students SET name = "Dutta" where id = 101;
+----------------------------------
+Delte column:
+DELETE FROM students WHERE id = 102;
+----------------------------------
+SELECT DISTINCT address FROM students;
+SELECT * FROM students where address LIKE 'B%';
+----------------------------------
+File sorted Assending:
+SELECT * FROM students ORDER by id ASC;
+-----------------------------------
+File sorted Desending:
+SELECT * FROM students ORDER by id DESC;
+----------------------------------
+Inner Join:
+SELECT s.name as studentName, t.name as teacherName from students as s 
+INNER join teacher_student as ts on ts.student_id = s.id INNER join teacher 
+as t on t.id = ts.teacher_id;
