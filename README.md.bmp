@@ -1,0 +1,24 @@
+Course Name: Python Programming with Django
+Name: Bipul Dutta
+Batch ID: 13328
+Order No: 4099423
+Assignment-  23.							     Date: 30.05.22
+=============================================================
+** Difference between Right Join vs Left Join vs Inner Join vs Outer Join
+LEFT JOIN:
+
+The Left Join clause joins two or more tables and returns all rows from the left table and matched records from the right table or returns null if it does not find any matching record. It is also known as Left Outer Join. So, Outer is the optional keyword to use with Left Join.
+
+Right JOIN:
+
+The Right Join clause joins two or more tables and returns all rows from the right-hand table, and only those results from the other table that fulfilled the specified join condition. If it finds unmatched records from the left side table, it returns Null value. It is also known as Right Outer Join. So, Outer is the optional clause to use with Right Join.
+
+Inner Join :
+An Inner Join returns only the rows that have matching values in both the tables (we are considering here the join is done between the two tables).
+
+Outer Join: 
+The Outer Join includes the matching rows as well as some of the non-matching rows between the two tables. An Outer join basically differs from the Inner join in how it handles the false match condition.
+
+ 
+ 
+
